@@ -11,4 +11,10 @@ public class AikidoCoach implements Coach {
 		return "Do that you must do";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
