@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class TennisCoach implements Coach {
 	
 	@Autowired
-	@Qualifier("fileFortuneService")
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 	
 	//define a default constructor
