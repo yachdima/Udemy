@@ -8,7 +8,6 @@ import javax.validation.constraints.Size;
 
 import com.luv2code.springdemo.mvc.validation.CourseCode;
 
-
 public class Customer {
 	
 	private String firstName;
